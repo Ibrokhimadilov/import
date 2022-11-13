@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #191919;
+    font-family: sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 119px;
+    background-color:#191919;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    width: 370px;
+    margin-left: 797px;
+}
+
+.navbar_content{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+}
+.title{
+    width: 100%;
+    height: 950px;
+    background-color: #191919;
+    display: flex;
+}
+.title_img{
+    width: 650px; 
+    height: 873px;
+    margin-left: 70px;
+}
+.title_text-about{
+  width: 526px;
+  height: 394px;
+  margin-top: 334px;
+  margin-left: 60px;
+}
+.title-text_h1{
+    font-weight: 5px;
+font-size: 70px;
+color: white;
+font-family: "Brussels City";
+}
+.title_icons{
+display: inline-block;
+bottom: 250px;
+right: 350px;
+color: white;
+margin-top: 90px;
+}
+.title_icon{
+    width: 31px;
+    height: 31px;
+}
+.site_information{
+    width: 100%;
+    height: 1000px;
+   background-color:rgb(24, 22, 22) 
+}
+.information_page{
+    width: 80%;
+    height:300px ;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 100px;
+    
+}
+.information_page>img{
+    height: 275px;
+    margin: 15px; 
+}
+.information_page>div{ 
+    width: 468px;
+    background-color: black;
+}
+.information_page-span{
+    margin: 20px 0px; 
+    color: white; 
+    background-color: black;
+}
+.information_page-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #118DA8;
+    color: white;    
+}
+.aboutjacob{
+    width: 100%;
+    height: 743px;
+    color: white;
+    display: flex;
+}
+.aboutjacob_text{
+    width: 556px;
+    margin-left: 70px;
+    margin-right: 154px;
+}
+.jacob_btn{
+    background-color: #118DA8;
+     height: 112px;
+     width: 112px;
+     border-radius: 50%;
+     margin-top: 260px;
+     margin-left: 120px;
+}
+.jacob_btn-svg{
+    transform: rotate(-90deg);
+    height: 100px;
+width: 38px;
+}
+.aboutjacob-name{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+    margin-top: 45px;
+    margin-bottom: 28px;
+}
+.aboutjacob-name-text{
+    margin-bottom: 33px;
+}
+.regestration{
+width: 1300px;
+height: 300px;
+background-color: black;
+margin-left: 70px;
+margin-right: 70px;
+position: relative;
+border-radius: 32px;
+margin: 201px auto;
+}
+.reg_small{
+    display: inline-block;
+    color:#118DA8;
+    margin-top: 59px;
+    margin-left: 60px;
+}
+.reg_h1{
+    color: white;
+    margin-left: 60px;
+    font-size: 60px;
+}
+.inp_div{
+    margin-left: 500px;
+    margin-top: -100px;
+}
+.reg_inp{
+    background-color: #191919;
+    height: 50px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.inp_div-btn{
+    width: 52px;
+    height: 29px;
+    border-radius: 5px;
+    background-color: #118DA8;
+    color: white;
+}
+footer{
+    height: 650px;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    gap: 16px;
+    margin-left: 70px;
+display: flex;
+flex-wrap: wrap;
+}
+.coment{
+    Width:423px;
+    Height:321px;
+    border-radius: 32px;
+    color: white;
+    background-color:#000000;
+}
+.star{
+    height: 16px;
+    width: 17px;  
+    margin-top: 54px;
+    margin-bottom: 22px;  
+}
+.com_tx{
+    font-family: "DM Sans";
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+margin-bottom: 19px;
+margin-left: 50px;
+}
+.com_tx-small{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+margin-left: 50px;
+}
